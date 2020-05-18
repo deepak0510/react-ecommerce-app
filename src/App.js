@@ -1,6 +1,7 @@
 import React from 'react';
 
 function App() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="grid-container">
       <header>
@@ -10,7 +11,7 @@ function App() {
         Product List
         </main>
       <footer>
-        Copyright  ©  All rights reserved
+        Copyright  © {currentYear}  All rights reserved
         </footer>
 
     </div>
